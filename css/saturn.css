@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*****************************
+Colours
+main background: #222;
+content background:#444;
+footer background: #333;
+borders on header and main: #666;
+main text: #d4d4d4;
+header text: #eee;
+footer text: #999;
+anchor text: gold;
+anchor hover: #fff;
+text shadows - #000 (bottom right) and gold (top left)
+
+Fonts
+'Helvetica Neue', Calibri, Verdana, sans-serif;
+
+Images
+http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
+******************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    
+    background: #222;
+   font-size: 3vh; /* default font-size = 1.0rem */
+   margin:0 auto;
+   width:95%;
+  
+}
+h1{
+  padding:10px;
+  margin:0px;
+ 
+  text-shadow: -2px -2px gold;
+  font-size: 80px;
+ font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+  color:#eee;
+  padding-bottom: 1em;
+  background-size:cover;
+  text-align:center;
+ }
+h3{
+  padding:30px 30px 30px 30px;
+  color:#d4d4d4;
+  font-size: 45px;
+  font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+   
+}
+p{
+  
+  margin:30px;
+  padding:20px,10px,10px;
+  font-size:25px;
+  font: Helvetica Neue;
+  color:#d4d4d4;
+  font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+  
+  }
+nav a, nav a:link, nav a:visited{
+  color:gold;
+  font-size:40px;
+  text-decoration:none;
+    line-height: 1.6;
+ /* padding:46px;*/
+  }
+nav a:hover, nav a:active{
+color:#fff;
+  border: 10px #222;
+}
+nav ul{
+ 
+text-align: center;
+}
+nav li{
+    list-style: none;
+/*  display: inline;*/
+ /* padding: .2em 3em;*/
+    float: left;
+    width: 20%;
+}
+#wrapper{
+ background-color:#444;
+}
+#masthead{
+ padding-top:20%;
+ background: url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg")no-repeat;
+  background-size:cover;
+  text-align:center;
+  border-bottom: 12px solid #777;
+}
+#main{
+border-top: 12px solid #777;
+    clear: left;
+}
+#footer{
+padding:20px;
+background-color:#333;
+width: 100%;
+
+  
+}
+#footer p{
+ color:#999;
+}
+#footer a{
+color:gold;
+}
